@@ -20,7 +20,6 @@ public class User {
 	private String password;
 	private String firstName;
 	private String lastName;
-	@Column(name = "phone")
 	private String phoneNumber;
 	private String email;
 	@Column(name = "isReviewer")
